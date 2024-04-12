@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css?family=Lora|Roboto");
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+@import url("components/banner_2.css");
+@import url("https://fonts.googleapis.com/css?family=Merienda|Satisfy");
+
+
+
+
+body {
+	font-family: 'Lora', serif;
+	font-size: 18px;
+	margin: 0px;
+	background-color: #E5E4E2;
+	color: black;
+}
+h1, h2, h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	margin: 50px;
+}
+a {
+	text-decoration: none;
+}
+
+h4 {
+	font-family: 'Reddit Mono', sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+h5 {
+	font-family: 'Reddit Mono', sans-serif;
+	font-weight: lighter;
+	font-size: 25px;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 30px;
+	color: rgb(16, 69, 71);
+}
+.list-inline i:hover {
+	color: green;
+}
+
+h6 {
+	font-family: 'Merienda';
+	font-weight: lighter;
+	font-size: 25px;
+}

@@ -1,0 +1,30 @@
+.banner_2 {
+	margin: 0;
+	padding: 0;
+	background-image: linear-gradient(-215deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 50%), url(../../images/join.jpg);
+	color : white;
+	padding: 10px 0px;
+	background-size: cover;
+	background-position: center;
+}
+
+.banner_2 h1 {
+	font-size: 50px;
+}
+
+.banner_2 h2 {
+	font-size: 30px;
+	font-weight: lighter;
+	opacity : 0.8;
+	margin-bottom: 40px;
+}
+
+.btn-rose {
+	padding: 20px 20px;
+	border-radius: 5px;
+	background-color: rgba(246, 246, 246, 0.3);
+}
+.btn-rose:hover {
+	background-color: rgba(246, 246, 246, 0.6);
+	color: slategrey;
+}

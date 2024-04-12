@@ -1,0 +1,43 @@
+.container{
+	width: 700px;
+	margin: 80px auto;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+  .btn-blue {
+  background-color: #8b8e8d;
+  padding: 15px 20px;
+  margin: 20px;
+  font-size: 10px;
+  word-wrap: break-word;
+}
+}
+
+
+/* Media Query pour les écrans de taille maximale de 600 pixels */
+@media screen and (max-width: 600px) {
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Centrer verticalement les boutons */
+    }
+
+    .buttons a:first-child {
+        margin-bottom: 10px; /* Espacement entre les boutons lorsque la taille de l'écran est réduite */
+    }
+}
